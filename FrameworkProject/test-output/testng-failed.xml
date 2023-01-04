@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="asserations.HardAsseration">
+        <methods>
+          <include name="AssertFalseTest"/>
+          <include name="assertNotEqualTest"/>
+          <include name="AssertNullTest"/>
+          <include name="closeApp"/>
+          <include name="AssertTrueTest"/>
+          <include name="LaunchWeb"/>
+          <include name="AssertNotNullTest"/>
+          <include name="assertEqualTest"/>
+        </methods>
+      </class> <!-- asserations.HardAsseration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
